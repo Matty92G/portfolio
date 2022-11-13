@@ -8,6 +8,7 @@
     <header>
     <nav></nav>
 <h1>Contact</h1>
+<p>Please if you wish to contact me use the form below.</p>
 </header>
 <hr />
 <main>
@@ -15,6 +16,33 @@
     <figure>
 
     </figure>
+    <form>
+        <fieldset>
+          <legend>Enter your details below and I'll get back to you</legend>
+      
+          <label for="firstname">First name</label>
+          <input id="firstname" type="text">      
+          <label for="lastname">Last name</label>
+          <input id="lastname" type="text">
+      
+          <br>
+      
+          <label for="email">email address</label>
+          <input id="email" type="email">
+        </fieldset>
+        <fieldset>
+          <legend>Extra details</legend>
+          <input type="radio" name="Reason" value="Project"> Project
+          <input type="radio" name="Reason" value="Drums"> Drums
+          <input type="radio" name="Reason" value="Other" checked="checked"> Other
+          <br>
+          <label for="notes">What do you want to contact me about?</label>
+          <textarea id="notes"></textarea>
+        </fieldset>
+      
+        <button type="submit">Send Request</button>
+      </form>
+
 </article>
 <aside>
 
