@@ -4,6 +4,10 @@ h1{
 .caption{
     background-color: aquamarine;
 }
-#about-me{
+#about-me > p{
     font-size: 20px;
+    font-weight:bold;
+}
+.profile-pic + p{
+    color: red;
 }
