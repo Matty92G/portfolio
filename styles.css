@@ -11,3 +11,22 @@ h1{
 .profile-pic + p{
     color: red;
 }
+
+#box:checked + label{
+    outline: 3px solid green;
+}
+#box:hover + label{
+    outline: 3px solid orange;
+}
+#socials a[href*="twitter"]:visited{
+    color: aqua;
+}
+#socials a[href*="twitter"]:hover{
+    color: orange;
+}
+#socials a[href*="linkedin"]:active{
+    color: hotpink;
+}
+#socials a[href*="twitter"]:active{
+    color: hotpink;
+}
