@@ -2,8 +2,15 @@
     color: green;
     font-family: monospace;
 }
+body{
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
     color: red;
+}
+h3{
+    font-size: 30px;
 }
 .caption{
     background-color: aquamarine;
@@ -34,6 +41,9 @@ h1{
 #socials a[href*="twitter"]:active{
     color: hotpink;
 }
+a{
+    text-decoration: none;
+}
 a::before {
     content: "This is a ";
  }
@@ -57,4 +67,22 @@ a::after {
 
 img{
     max-width: 1000px;
+}
+.div-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: red;
+ }
+ .span-element {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+ }
+ @media screen and (max-width: 768px) {
+    * {
+        text-align: center;
+    }
 }
