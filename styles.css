@@ -5,6 +5,37 @@
 body{
     padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas:
+    "header header header nav"
+    "header header header aside"
+    "sidebar sidebar main main"
+    "sidebar sidebar main main"
+    "footer footer footer footer";
+}
+header{
+    grid-area: header;
+    background-color: blanchedalmond;
+}
+nav {
+    grid-area: nav;
+    background-color:floralwhite;
+}
+#side-bar {
+    grid-area: sidebar;
+    background-color:greenyellow;
+}
+aside {
+    grid-area: aside;
+    background-color:burlywood;
+}
+main {
+    grid-area: main;
+    background-color:darksalmon;
+}
+footer {
+    grid-area: footer;
+    background-color:cornsilk;
 }
 h1{
     color: red;
