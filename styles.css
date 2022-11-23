@@ -1,5 +1,7 @@
 *::first-letter{
-    color: green;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-style: italic;
     font-family: monospace;
 }
 body{
@@ -7,10 +9,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-areas:
-    "header header header nav"
-    "header header header aside"
-    "sidebar sidebar main main"
-    "sidebar sidebar main main"
+    "sidebar header header nav"
+    "sidebar header header aside"
+    "sidebar main main main"
+    "sidebar main main main"
     "footer footer footer footer";
 }
 header{
@@ -20,6 +22,11 @@ header{
 nav {
     grid-area: nav;
     background-color:floralwhite;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 #side-bar {
     grid-area: sidebar;
@@ -38,7 +45,7 @@ footer {
     background-color:cornsilk;
 }
 h1{
-    color: red;
+    color: darkred;
 }
 h3{
     font-size: 30px;
@@ -115,5 +122,15 @@ img{
  @media screen and (max-width: 768px) {
     * {
         text-align: center;
+    }
+    body{
+        display: grid;
+        grid-template-areas:
+        "nav"
+        "header"
+        "aside"
+        "sidebar"
+        "main"
+        "footer";
     }
 }
