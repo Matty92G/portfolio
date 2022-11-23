@@ -1,58 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
     <title>Matthew Giles</title>
 
 </head>
 <body>
-    <header>
-    <nav><a href="./pages/projects.html">Projects</a><a href="./pages/contact.html">Contact</a></nav>
+<!--<style>
+        h1 {
+        color:red;
+        }
+    </style>-->
+
+<nav><a href="./pages/projects.html">Projects</a><a href="./pages/contact.html">Contact</a></nav>
+<!--<h1 style="color : red;">Matthew Giles</h1>-->
+<header>
 <h1>Matthew Giles</h1>
 <h2>Currently studying with Manchester Codes</h2>
 <br />
 <figure>
-    <img src="images/DSC_2780.JPG" alt="Matthew in Norway"
+    <img src="images/DSC_2780.JPG" alt="Matthew in Norway">
     <br />
-    <figcaption>
+    <figcaption class="caption">
         This is a picture of me in Norway.
     </figcaption>
 </figure>
-<h3>About Me</h3>
-<p>I studied Multimedia and Web Computing at University, however I never managed to progress into a carrer path from it</p>
-<p>Since starting a Bootcamp with Machester Codes I've been gaining skills and improving my confidence with coding</p>
-<hr />
-<h2>Qualities</h2>
-<ol>
-    <li></li>
-    <li></li>
-    <li></li>
-</ol>
-<hr />
-<h2>Hobbies & Interests</h2>
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
-<figure>
-    <img src="" alt=""
-    <br />
-    <figcaption>
-        There's no image here yet but there will be when I find one I like.
-    </figcaption>
-</figure>
-<hr />
 </header>
+<div id="side-bar">
+    <div class="div-element">one</div>
+    <div class="div-element">two</div>
+    <div class="div-element">three</div>
+    <span class="span-element">one</span>
+    <span class="span-element">two</span>
+    <span class="span-element">three</span>
+</div>
+<aside>
+<div id="about-me">
+<h3>About Me</h3>
+<img class="profile-pic" src="https://res.cloudinary.com/pga-tour/image/upload/q_auto,t_headshots_player_l/v1/headshots_28801.png" alt="a picture of me">
+<p>This is not me</p>
+<p>I studied Multimedia and Web Computing at University, however I never managed to progress into a carrer path from it</p>
+<div>
+<p>Since starting a Bootcamp with Machester Codes I've been gaining skills and improving my confidence with coding</p>
+</div>
+</div>
+
+<hr />
+</aside>
 <main>
 <article>
+    <h2>Qualities</h2>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <hr />
+    <h2>Hobbies & Interests</h2>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <hr />
+    <figure>
+        <img src="" alt="">
+        <br />
+        <figcaption>
+            There's no image here yet but there will be when I find one I like.
+        </figcaption>
+    </figure>
+    <hr />
 </article>
-<aside>
-
-</aside>
 </main>
 <hr />
 <footer>
-
+    <div id="socials">
+        <h3>My Socials</h3>
+        <p>Follow me on <a href="https://twitter.com/Matty92G" target="_blank">Twitter</a>!</p>
+        <p>Follow me on <a href="https://www.linkedin.com/in/matthew-giles-83695646/" target="_blank">Linkedin</a>!</p>
+        <!--The below are form elements, we will get to those later on so don't worry
+        about these just yet, we just need them for demo purposes -->
+        <input type="checkbox" id="box" name="test-checkbox" checked />
+        <label for="test-checkbox">Check this box for some reason</label>
+        <!--The button below is just a demo, so it doesn't do anything, we will add the
+        disabled attribute though, more on that below...-->
+        <button disabled>You can't press this...</button>
+      </div>
 </footer>
 <hr />
 
